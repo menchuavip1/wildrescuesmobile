@@ -1,0 +1,216 @@
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+img
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+h1{
+  font-family:"Emblema One", system-ui;
+  padding: 2%;
+  text-align: center;
+  margin: 0; 
+}
+h3{
+  font-family: "Lora", serif;
+  padding: 2%;
+  text-align: center;
+  margin: 0;
+}
+/* Styles rules for body and images */
+body {
+  background-color: #f6eee4;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Styles rules for navigation area */
+nav {
+  background-color: #2a1f14;
+  
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: block;
+  border-top: 0.5px solid #f6eee4;
+  font-size: 1.5em;
+  font-family: Geneva, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #f6eee4;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+/* Styles rules for main content area */
+main {
+  padding: 2%;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+  font-size: 1.25em;
+}
+
+main h3 {
+  padding:2%;
+}
+
+main ul {
+  list-style: square;
+}
+
+.link {
+  color:#4d3319;
+  text-decoration: none;
+  font-weight: bold;
+  font-style:italic;
+}
+
+.action {
+  font-size:1.75em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.round{
+  border-radius: 6px;
+}
+
+#info ul{
+  margin-left: 10%;
+}
+
+#contact {
+  text-align: center;
+}
+
+.tel-link {
+  background-color: #2a1f14;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2%;
+  text-align: center;
+}
+
+.tel-link a {
+  color: #f6eee4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Styles rules for footer content */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #2a1f14;
+  color: #f6eee4;
+  padding: 1% 0%;
+}
+
+footer a{
+  color: #f3e6d8;
+  text-decoration: none;
+}
+
+ /* Style rules for the table */
+
+ table {
+  border: 1px solid #2a1f14; 
+  border-collapse: collapse;
+  margin: 0 auto;
+ }
+
+ caption{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1%;
+ }
+
+th, td{
+  border: 1px solid #2a1f14;
+  padding: 1px;
+ }
+
+th{
+  background-color: #2a1f14;
+  color: white;
+  font-size: 1.15em;
+}
+
+tr:nth-child(odd) {
+  background-color: #deccba;
+
+}
+
+fieldset, input {
+  margin: 2%;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+label{
+  display: block;
+  padding-top: 2%;
+}
+
+form{
+  width: auto;
+}
+
+form #submit {
+  margin: 0 auto;
+  display: block;
+  padding: 1%;
+  background-color: #7c5024;
+  font-size: 1em;
+  color: #f6eee4;
+  border-radius: 7px;
+}
+.form-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.btn {
+  grid-column: 1 / span 2;
+}
+
+.mobile{
+  display: block;
+}
+
+.tab-desk{
+  display: none;
+}
+
+.yup{
+  text-decoration: none;
+  color:black;
+  margin: 0;
+  padding: 0;
+}
+
+
